@@ -1,0 +1,359 @@
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: "Poppins", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        body {
+            background-color: #080325;
+            box-sizing: border-box;
+        }
+
+        .navc {
+            /* color: #f42151; */
+            color: aliceblue;
+        }
+
+        .navc:hover {
+            color: #f42151;
+        }
+
+        .navc img {
+            width: 80px;
+        }
+
+        .mn {
+            background-color: #0803254d;
+
+        }
+
+        .cvx {
+            background-color: #0803254d;
+        }
+
+        .heightt {
+            height: 650px;
+        }
+
+        .fs {
+            font-size: 60px;
+            color: white;
+            font-weight: 650;
+        }
+
+        .fs span {
+            color: #f42151;
+            font-size: 60px;
+            font-weight: 650;
+        }
+
+        .sp {
+            color: #f42151;
+        }
+
+        .spp {
+            color: #f42151;
+            font-weight: 600;
+        }
+
+        .dark {
+            height: 100vh;
+            background-color: black;
+            height: 710px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #0803257e;
+
+        }
+
+        .darker {
+            height: 70vh;
+            background-color: black;
+            height: 528px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background: #08032550;
+
+        }
+
+        .w {
+            /* width: 370px; */
+            background-color: #211D3B;
+            transform: skew(-7deg);
+        }
+
+        .w:hover {
+            transform: scaleX(1);
+        }
+
+        .ww {
+            background-color: rgba(255, 255, 255, 0.064);
+            transform: skew(-7deg);
+        }
+
+        .ww:hover {
+            transform: scaleX(1);
+        }
+
+        .www {
+            color: rgba(255, 255, 255, 0.353);
+        }
+
+
+        .animated-text {
+            font-size: 34px;
+            font-weight: 600;
+            min-width: 280px;
+        }
+
+        .animated-text .an {
+            position: relative;
+        }
+
+        .animated-text .an::before {
+            content: "REAPER OF SOULS";
+            color: #f42151;
+            font-weight: 600;
+            animation: words 20s infinite;
+        }
+
+        .animated-text .an::after {
+            content: "";
+            position: absolute;
+            width: calc(100% + 8px);
+            height: 100%;
+            background-color: #080325;
+            border-left: 2px solid #f42151;
+            right: -8px;
+            animation: cursor .8s infinite, typing 20s steps(14) infinite;
+        }
+
+        @keyframes cursor {
+            to {
+                border-left: 2px solid #f42151;
+            }
+        }
+
+        @keyframes words {
+
+            0%,
+            20% {
+                content: "REAPER OF SOULS";
+            }
+
+            21%,
+            40% {
+                content: "CALL OF SHOOTERS";
+            }
+
+            41%,
+            60% {
+                content: "BLACK ROCK SHOOTER";
+            }
+
+            61%,
+            80% {
+                content: "JOURNEY";
+            }
+        }
+
+        @keyframes typing {
+
+            10%,
+            15%,
+            30%,
+            35%,
+            50%,
+            55%,
+            70%,
+            75%,
+            90%,
+            95% {
+                width: 0;
+            }
+
+            5%,
+            20%,
+            25%,
+            40%,
+            45%,
+            60%,
+            65%,
+            80%,
+            85% {
+                width: calc(100% + 8px);
+            }
+        }
+
+
+        .main {
+            background-image: url(../images/i6.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+            height: 92dvh;
+            position: relative;
+        }
+
+        .darkk {
+
+            background-color: black;
+            height: 94dvh;
+            position: absolute;
+            top: -3px;
+            left: 0;
+            width: 100%;
+            background: #080325ac;
+        }
+
+        .imag {
+            background-image: url(../images/final.jpg);
+            height: 350px;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-size: cover;
+        }
+
+        .mdl {
+            background-color: #f8f7fb2c;
+        }
+
+        .ft ul {
+            list-style-type: none;
+
+        }
+
+        .cq a {
+            color: rgba(255, 255, 255, 0.755);
+
+        }
+
+        .wl {
+            width: 200px;
+        }
+
+        .lg {
+            overflow: hidden;
+            padding: 50px 0;
+            white-space: nowrap;
+        }
+
+        .lg .icn {
+            display: inline-block;
+            animation: 10s slide infinite linear;
+        }
+
+        .lg .icn i {
+            font-size: 100px;
+            padding: 0px 30px 0px 30px;
+
+        }
+
+        .lg:hover .icn {
+            animation-play-state: paused;
+        }
+
+        @keyframes slide {
+            from {
+                transform: translatex(0);
+            }
+
+            to {
+                transform: translatex(-100%);
+            }
+        }
+
+        .vk {
+            background-color: #f42151;
+            border: none;
+            border-radius: 0;
+        }
+
+        .vkk {
+            background-color: #f4215277;
+        }
+
+        .vk:hover {
+            background-color: #f42152be;
+        }
+
+        .kv {
+            border: none;
+            border-radius: 0;
+        }
+
+        .ol li {
+            text-decoration: none;
+        }
+
+        .dak {
+            background-color: #080325cd;
+        }
+
+        /* @media screen and (min-width: 768px) {
+
+            .darkk {
+                background-color: black;
+                height: 50vh;
+                position: absolute;
+                top: -3px;
+                left: 0;
+                width: 100%;
+                background: #080325ac;
+            }
+
+            .main {
+                background-image: url(i6.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: cover;
+                background-position: center;
+                height: 49vh;
+                position: relative;
+            }
+        } */
+
+
+        /* courser */
+
+        .cursor1 {
+            position: fixed;
+            width: 40px;
+            height: 40px;
+            border: 1px solid var(--primary);
+            border-radius: 50%;
+            left: 0;
+            top: 0;
+            pointer-events: none;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -webkit-transition: 0.15s;
+            transition: 0.15s;
+            z-index: 999;
+            mix-blend-mode: difference;
+        }
+
+        .cursor2 {
+            position: fixed;
+            width: 8px;
+            height: 8px;
+            background-color: var(--primary);
+            border-radius: 50%;
+            left: 0;
+            top: 0;
+            pointer-events: none;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            -webkit-transition: 0.2s;
+            transition: 0.2s;
+            z-index: 999;
+            mix-blend-mode: difference;
+        }
